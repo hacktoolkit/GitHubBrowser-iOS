@@ -1,3 +1,0 @@
-[submodule "htk"]
-	path = htk
-	url = git@github.com:hacktoolkit/hacktoolkit-ios_lib.git
