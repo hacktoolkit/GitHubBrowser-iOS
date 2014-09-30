@@ -8,6 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		033287C219D7A977008FDA0C /* inspectocat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 033287C119D7A977008FDA0C /* inspectocat.jpg */; };
+		56C4509C19DA88D600551220 /* DataStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C4508119DA88D600551220 /* DataStructures.swift */; };
+		56C4509D19DA88D600551220 /* GitHubClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C4508419DA88D600551220 /* GitHubClient.swift */; };
+		56C4509E19DA88D600551220 /* GitHubOrganization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C4508619DA88D600551220 /* GitHubOrganization.swift */; };
+		56C4509F19DA88D600551220 /* GitHubRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C4508719DA88D600551220 /* GitHubRepository.swift */; };
+		56C450A019DA88D600551220 /* GitHubRepositoryContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C4508819DA88D600551220 /* GitHubRepositoryContent.swift */; };
+		56C450A119DA88D600551220 /* GitHubResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C4508919DA88D600551220 /* GitHubResource.swift */; };
+		56C450A219DA88D600551220 /* GitHubUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C4508A19DA88D600551220 /* GitHubUser.swift */; };
+		56C450A319DA88D600551220 /* RottenTomatoesMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C4508D19DA88D600551220 /* RottenTomatoesMovie.swift */; };
+		56C450A419DA88D600551220 /* RottenTomatoesClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C4508E19DA88D600551220 /* RottenTomatoesClient.swift */; };
+		56C450A519DA88D600551220 /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C4509119DA88D600551220 /* Tweet.swift */; };
+		56C450A619DA88D600551220 /* TwitterClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C4509219DA88D600551220 /* TwitterClient.swift */; };
+		56C450A719DA88D600551220 /* YelpBusinessResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C4509519DA88D600551220 /* YelpBusinessResult.swift */; };
+		56C450A819DA88D600551220 /* YelpCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C4509619DA88D600551220 /* YelpCategory.swift */; };
+		56C450A919DA88D600551220 /* YelpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C4509719DA88D600551220 /* YelpClient.swift */; };
+		56C450AA19DA88D600551220 /* HTKImageUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C4509919DA88D600551220 /* HTKImageUtils.swift */; };
+		56C450AB19DA88D600551220 /* HTKNotificationUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C4509A19DA88D600551220 /* HTKNotificationUtils.swift */; };
+		56C450AC19DA88D600551220 /* HTKUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C4509B19DA88D600551220 /* HTKUtils.swift */; };
 		56E0833019D749620099A356 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E0832F19D749620099A356 /* AppDelegate.swift */; };
 		56E0833519D749620099A356 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56E0833319D749620099A356 /* Main.storyboard */; };
 		56E0833719D749620099A356 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56E0833619D749620099A356 /* Images.xcassets */; };
@@ -42,6 +59,23 @@
 /* Begin PBXFileReference section */
 		033287C119D7A977008FDA0C /* inspectocat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = inspectocat.jpg; path = Images.xcassets/inspectocat.jpg; sourceTree = "<group>"; };
 		4B2CEEB10F3C70BED94B9D11 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		56C4508119DA88D600551220 /* DataStructures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStructures.swift; sourceTree = "<group>"; };
+		56C4508419DA88D600551220 /* GitHubClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubClient.swift; sourceTree = "<group>"; };
+		56C4508619DA88D600551220 /* GitHubOrganization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubOrganization.swift; sourceTree = "<group>"; };
+		56C4508719DA88D600551220 /* GitHubRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubRepository.swift; sourceTree = "<group>"; };
+		56C4508819DA88D600551220 /* GitHubRepositoryContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubRepositoryContent.swift; sourceTree = "<group>"; };
+		56C4508919DA88D600551220 /* GitHubResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubResource.swift; sourceTree = "<group>"; };
+		56C4508A19DA88D600551220 /* GitHubUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubUser.swift; sourceTree = "<group>"; };
+		56C4508D19DA88D600551220 /* RottenTomatoesMovie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RottenTomatoesMovie.swift; sourceTree = "<group>"; };
+		56C4508E19DA88D600551220 /* RottenTomatoesClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RottenTomatoesClient.swift; sourceTree = "<group>"; };
+		56C4509119DA88D600551220 /* Tweet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
+		56C4509219DA88D600551220 /* TwitterClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterClient.swift; sourceTree = "<group>"; };
+		56C4509519DA88D600551220 /* YelpBusinessResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YelpBusinessResult.swift; sourceTree = "<group>"; };
+		56C4509619DA88D600551220 /* YelpCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YelpCategory.swift; sourceTree = "<group>"; };
+		56C4509719DA88D600551220 /* YelpClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YelpClient.swift; sourceTree = "<group>"; };
+		56C4509919DA88D600551220 /* HTKImageUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTKImageUtils.swift; sourceTree = "<group>"; };
+		56C4509A19DA88D600551220 /* HTKNotificationUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTKNotificationUtils.swift; sourceTree = "<group>"; };
+		56C4509B19DA88D600551220 /* HTKUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTKUtils.swift; sourceTree = "<group>"; };
 		56E0832A19D749620099A356 /* GitHubBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56E0832E19D749620099A356 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		56E0832F19D749620099A356 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -96,9 +130,123 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		56C4507F19DA88D600551220 /* Hacktoolkit */ = {
+			isa = PBXGroup;
+			children = (
+				56C4508019DA88D600551220 /* dataStructures */,
+				56C4508219DA88D600551220 /* lib */,
+				56C4509819DA88D600551220 /* utils */,
+			);
+			name = Hacktoolkit;
+			path = htk/Hacktoolkit;
+			sourceTree = "<group>";
+		};
+		56C4508019DA88D600551220 /* dataStructures */ = {
+			isa = PBXGroup;
+			children = (
+				56C4508119DA88D600551220 /* DataStructures.swift */,
+			);
+			path = dataStructures;
+			sourceTree = "<group>";
+		};
+		56C4508219DA88D600551220 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				56C4508319DA88D600551220 /* GitHub */,
+				56C4508B19DA88D600551220 /* RottenTomatoes */,
+				56C4508F19DA88D600551220 /* Twitter */,
+				56C4509319DA88D600551220 /* Yelp */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		56C4508319DA88D600551220 /* GitHub */ = {
+			isa = PBXGroup;
+			children = (
+				56C4508419DA88D600551220 /* GitHubClient.swift */,
+				56C4508519DA88D600551220 /* models */,
+			);
+			path = GitHub;
+			sourceTree = "<group>";
+		};
+		56C4508519DA88D600551220 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				56C4508619DA88D600551220 /* GitHubOrganization.swift */,
+				56C4508719DA88D600551220 /* GitHubRepository.swift */,
+				56C4508819DA88D600551220 /* GitHubRepositoryContent.swift */,
+				56C4508919DA88D600551220 /* GitHubResource.swift */,
+				56C4508A19DA88D600551220 /* GitHubUser.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		56C4508B19DA88D600551220 /* RottenTomatoes */ = {
+			isa = PBXGroup;
+			children = (
+				56C4508C19DA88D600551220 /* models */,
+				56C4508E19DA88D600551220 /* RottenTomatoesClient.swift */,
+			);
+			path = RottenTomatoes;
+			sourceTree = "<group>";
+		};
+		56C4508C19DA88D600551220 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				56C4508D19DA88D600551220 /* RottenTomatoesMovie.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		56C4508F19DA88D600551220 /* Twitter */ = {
+			isa = PBXGroup;
+			children = (
+				56C4509019DA88D600551220 /* models */,
+				56C4509219DA88D600551220 /* TwitterClient.swift */,
+			);
+			path = Twitter;
+			sourceTree = "<group>";
+		};
+		56C4509019DA88D600551220 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				56C4509119DA88D600551220 /* Tweet.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		56C4509319DA88D600551220 /* Yelp */ = {
+			isa = PBXGroup;
+			children = (
+				56C4509419DA88D600551220 /* models */,
+				56C4509719DA88D600551220 /* YelpClient.swift */,
+			);
+			path = Yelp;
+			sourceTree = "<group>";
+		};
+		56C4509419DA88D600551220 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				56C4509519DA88D600551220 /* YelpBusinessResult.swift */,
+				56C4509619DA88D600551220 /* YelpCategory.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		56C4509819DA88D600551220 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				56C4509919DA88D600551220 /* HTKImageUtils.swift */,
+				56C4509A19DA88D600551220 /* HTKNotificationUtils.swift */,
+				56C4509B19DA88D600551220 /* HTKUtils.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
 		56E0832119D749620099A356 = {
 			isa = PBXGroup;
 			children = (
+				56C4507F19DA88D600551220 /* Hacktoolkit */,
 				ABA6930A19D7A846006B2112 /* folder@2x.png */,
 				ABA6930B19D7A846006B2112 /* papers@2x.png */,
 				ABEECFCC19D754EB0020D266 /* secrets.xcconfig */,
@@ -334,15 +482,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56C450A619DA88D600551220 /* TwitterClient.swift in Sources */,
+				56C450AA19DA88D600551220 /* HTKImageUtils.swift in Sources */,
 				56E0838319D74EBC0099A356 /* GitHubBrowserNavigationViewController.swift in Sources */,
+				56C450A919DA88D600551220 /* YelpClient.swift in Sources */,
+				56C4509C19DA88D600551220 /* DataStructures.swift in Sources */,
+				56C450A419DA88D600551220 /* RottenTomatoesClient.swift in Sources */,
 				56E0837D19D74E470099A356 /* RepositoryDetailsViewController.swift in Sources */,
+				56C450A819DA88D600551220 /* YelpCategory.swift in Sources */,
+				56C450AB19DA88D600551220 /* HTKNotificationUtils.swift in Sources */,
+				56C450AC19DA88D600551220 /* HTKUtils.swift in Sources */,
+				56C4509E19DA88D600551220 /* GitHubOrganization.swift in Sources */,
 				56E0837B19D74E310099A356 /* UserDetailsViewController.swift in Sources */,
 				56E0838519D74EEC0099A356 /* GitHubBrowserViewController.swift in Sources */,
+				56C450A019DA88D600551220 /* GitHubRepositoryContent.swift in Sources */,
+				56C4509F19DA88D600551220 /* GitHubRepository.swift in Sources */,
 				56E0838B19D754E20099A356 /* OrganizationDetailsViewController.swift in Sources */,
 				56E0837F19D74E5D0099A356 /* FolderDetailsViewController.swift in Sources */,
+				56C4509D19DA88D600551220 /* GitHubClient.swift in Sources */,
 				ABA58EC719D777DE005A3772 /* GitHubBrowserTableViewController.swift in Sources */,
 				56E0833019D749620099A356 /* AppDelegate.swift in Sources */,
+				56C450A719DA88D600551220 /* YelpBusinessResult.swift in Sources */,
+				56C450A319DA88D600551220 /* RottenTomatoesMovie.swift in Sources */,
+				56C450A219DA88D600551220 /* GitHubUser.swift in Sources */,
 				56E0838119D74E690099A356 /* FileDetailsViewController.swift in Sources */,
+				56C450A519DA88D600551220 /* Tweet.swift in Sources */,
+				56C450A119DA88D600551220 /* GitHubResource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
